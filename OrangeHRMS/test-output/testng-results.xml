@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[############### TEST Started SUCCESSFULLY ###############]]>
+    </line>
+    <line>
+      <![CDATA[############### TEST COMPLETED SUCCESSFULLY ###############]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10883" started-at="2021-04-18T09:02:29Z" finished-at="2021-04-18T09:02:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10883" started-at="2021-04-18T09:02:29Z" finished-at="2021-04-18T09:02:40Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.LoginTest@27efef64]" name="setUp" is-config="true" duration-ms="5722" started-at="2021-04-18T09:02:29Z" finished-at="2021-04-18T09:02:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[############### TEST Started SUCCESSFULLY ###############]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginPage()[pri:1, instance:test.LoginTest@27efef64]" name="validateLoginPage" duration-ms="8" started-at="2021-04-18T09:02:35Z" finished-at="2021-04-18T09:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage -->
+        <test-method status="PASS" signature="validateLoginCredentials()[pri:2, instance:test.LoginTest@27efef64]" name="validateLoginCredentials" duration-ms="5121" started-at="2021-04-18T09:02:35Z" finished-at="2021-04-18T09:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@27efef64]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-18T09:02:40Z" finished-at="2021-04-18T09:02:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[############### TEST COMPLETED SUCCESSFULLY ###############]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
